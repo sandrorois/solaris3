@@ -1,0 +1,427 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(/src/img/palm-leaves-shadow-beige\ 1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+.capa {
+    height: 70vh;
+}
+
+/* Fonts */
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-2{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.text-3{
+    font-size: 55px;
+    word-spacing: -10px;
+}
+
+.text-4{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* Tabelas */
+
+
+table {
+    margin: auto;
+    
+}
+
+td, tr, th {
+    padding: 10px;
+    text-align: center;
+}
+
+.td-1{
+    width: 80%;
+}
+
+
+/* button */
+.btn-solaris {
+    border-radius: 30px;
+    background-color: #E67E3C;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    transition: transform 0.5s ease;
+    
+
+}
+
+.btn-solaris:hover {
+    background-color: #ffeee1;
+    color: #E67E3C;
+}
+
+
+/* Animation */
+
+.is-shaking {
+    animation: none;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(-5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(-5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+
+/* Lista */
+
+.number{
+    background-color: #E67E3C;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5;
+    width: 40px;
+}
+
+/* Colors */
+
+.org {
+    color: #E67E3C
+}
+
+.gradient{
+    background-image: linear-gradient(to top, #e67d3c70 0%, #feb47b00 50%, #ffcc3300 100%);
+    margin:  -5px;
+    padding: 0px 20px;
+}
+
+#destaque-box {
+    background-color: #E67E3C;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+
+
+
+/* Dempoimento */
+
+.depoimento {
+    padding: 15px;
+    border: solid 3px #E67E3C;
+    border-radius: 50px;
+    min-width: 250px;
+    max-width: 70%;
+    margin: 10px;
+}
+
+.img-dep {
+    position: relative;
+    right: 0px;
+}
+
+/* Layout */
+
+.mb-10 {
+    margin-bottom: 100px;
+}
+
+.px-00{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-12 {
+    width: 100% !important;
+    padding: 0; /* Remova se houver padding indesejado */
+    margin: 0; /* Remova se houver margem indesejada */
+}
+
+
+
+
+/* Configurações de Seções */
+
+#section-3{
+    background-image: url(/src/img/ondas-fundo-bronzeador.png);
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position:bottom;
+    padding-bottom: 100px;
+}
+
+#section-4{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+#section-6{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+#section-7{
+    background-color: #F2BE9D;
+    padding: 20px 0px;
+    
+   
+}
+
+
+
+
+/* text-boxes */
+
+.text-box-1{
+    min-height: 150px;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+.text-box-2{
+    border: solid 2px #E67E3C;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.box-1{
+    border: solid 2px #E67E3C;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.line-1{
+    height: 2px; 
+    background-color: #e67d3c75;
+    margin: auto;
+}
+
+
+
+#woman-img{
+    position:absolute;
+    top: -438px;
+    left: -100px;
+
+    
+}
+
+
+/* Menu de perguntas */
+
+.action-btn{
+    cursor: pointer;
+}
+
+.resposta{
+    background-color: #f2be9d9a;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+}
+
+.pq-box{
+    border-bottom: solid 1px #F2BE9D;
+    width: 400px;
+    height: 80px;
+}
+
+
+
+
+/* ----- BREAK POINTS------ */
+
+/* Extra pequeno (xs) */
+@media (min-width: 100px) and (max-width: 575.98px) {
+
+    .img-dep {
+        position: relative;
+        right: 0px;
+    }
+
+    .line-1{
+        max-width: 80%;
+    }
+
+    .gradient{
+        margin:  -5px;
+        padding: 0px 20px;
+    }
+
+    .text-3{
+        font-size: 65px;
+    }
+
+    .text-4{
+        font-size: 25px;
+    }
+
+    footer{
+        font-size:12px ;
+    }
+
+    
+    #woman-img{
+        display: none;
+            }
+
+}
+
+/* Pequeno (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .img-dep {
+        position: relative;
+        right: 20px;
+    }
+
+    .line-1{
+        max-width: 80%;
+    }
+
+    .gradient{
+        margin: 0 -5px;
+    }
+
+    .text-3{
+        font-size: 65px;
+    }
+
+    .text-4{
+        font-size: 25px;
+    }
+
+    #woman-img{
+display: none;
+    }
+
+}
+
+/* Médio (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .img-dep {
+        position: relative;
+        right: 20px;
+    }
+
+    #woman-img{
+        top: -427px;
+        left: -200px; 
+    }
+
+
+}
+
+/* Grande (lg) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .img-dep {
+        position: relative;
+        right: 20px;
+    }
+
+    .text-box-1{
+        min-height: 150px;
+        align-content: center;
+        padding: 0px;
+        
+    }
+
+    .gradient{
+        margin:  0px;
+    }
+
+    #woman-img{
+        top: -430px;
+        left: -100px;
+        
+    }
+}
+
+/* Extra grande (xl) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    #woman-img{
+        min-height: 820px;
+        
+    }
+
+
+}
+
+/* Extra extra grande (xxl) */
+@media (min-width: 1400px) {
+
+    #woman-img{
+        min-height: 820px;   
+    }
+
+}
